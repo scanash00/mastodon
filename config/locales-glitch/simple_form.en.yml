@@ -1,6 +1,7 @@
 ---
 en:
   simple_form:
+    blep_only: Blep
     chuckya_only: Chuckya
     glitch_only: glitch-soc
     hints:
