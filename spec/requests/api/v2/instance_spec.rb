@@ -18,7 +18,7 @@ RSpec.describe 'Instances' do
 
         expect(response.parsed_body)
           .to be_present
-          .and include(title: 'Chuckya')
+          .and include(title: 'Blep')
           .and include_api_versions
           .and include_configuration_limits
       end
@@ -36,7 +36,7 @@ RSpec.describe 'Instances' do
 
         expect(response.parsed_body)
           .to be_present
-          .and include(title: 'Chuckya')
+          .and include(title: 'Blep')
           .and include_api_versions
           .and include_configuration_limits
       end
@@ -67,7 +67,7 @@ RSpec.describe 'Instances' do
       include(
         api_versions: include(
           mastodon: anything,
-          chuckya: anything
+          blep: anything
         )
       )
     end
